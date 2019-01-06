@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="index.html"><p><em>Are you ready to go back?</em></p></a>
+    <!-- use GET, not POST -->
+    <form method="GET">
+      What's your first name? <input type="text" name="firstname"><br>
+      What about your last? <input type="text" name="lastname"><br>
+      Email? <input type="email" required name="email"><br>
+      When were you born? <input type="date" name="birthday"><br>
+      Which pronouns do you relate to best? <br>
+      <input type="radio" name="pronoun" value="they">They/Them<br>
+      <input type="radio" name="pronoun" value="she">She/Her<br>
+      <input type="radio" name="pronoun" value="he">He/Him<br>
+      Which animals do you keep as pets? <br>
+      <input type="checkbox" name="pets" value="dog">Dogs
+      <input type="checkbox" name="pets" value="cat"> Cats <br>
+      <input type="checkbox" name="pets" value="bird">Birds
+      <input type="checkbox" name="pets" value="fish"> Fish <br>
+      <input type="checkbox" name="pets" value="reptiles"> Reptiles
+      <input type="checkbox" name="pets" value="nopets"> None <br>
+      What kind of car do you drive? <br>
+      <select name="car">
+        <option value="volvo" value="volvo">volvo</option>
+        <option value="audi" value="audi">audi</option>
+        <option value="no" value="nocar">what's a car?</option>
+      </select><br>
+      <input type="submit" value="I'll remember this">
+      <input type="reset">
+    </form>
+  </body>
+</html>

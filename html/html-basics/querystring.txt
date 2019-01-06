@@ -1,0 +1,10 @@
+This is what gets attached to the URL when you submit the form under the default form type = "GET"
+
+? - data incoming flag
+firstname=Satan
+&lastname=Lucifer
+&email=lucifer%40sixsixsix.com %40 HTML encoding translates to "@"
+&birthday=0666-06-06 date in year/month/day format
+&pronoun=they
+&pets=cat&pets=reptiles
+&car=volvo
