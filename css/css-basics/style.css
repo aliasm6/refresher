@@ -1,0 +1,14 @@
+body {
+  background-image: url(../../../../Downloads/ben-watts-1268550-unsplash.jpg);
+  background-size: cover;
+}
+h2, p {
+  color: #EA6A33;
+  text-align: center;
+  border: 2px solid #A13102;
+  cursor: pointer;
+}
+ li {
+   list-style: none;
+   display: inline-block
+ }
