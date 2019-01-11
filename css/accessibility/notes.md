@@ -5,7 +5,7 @@ resources: https://www.w3.org/WAI/standards-guidelines/wcag/
 
 ## HTML alt attribute
 
-it's mandatory that all `<img>` tags feature an alt attribute. 
+It's mandatory that `<img>` tags feature an alt attribute. Note that in some cases the alt attribute's value can be left blank. However, the attribute must still be there. 
 
 example:
 
